@@ -1,43 +1,36 @@
-Bangalore Home Price Prediction
+# 🏠 Bangalore Home Price Prediction
 
-An end-to-end Machine Learning project that predicts home prices in Bangalore based on location, square feet, number of BHKs, and bathrooms.
+An end-to-end Machine Learning project that predicts house prices in Bangalore using regression models.
 
- Project Overview
-This project includes:
-- Data cleaning & feature engineering
-- Outlier detection & removal
+##  Project Overview
+This project covers:
+- Data cleaning and preprocessing
+- Feature engineering
+- Outlier detection and removal
 - Model training and evaluation
-- Flask backend API
-- Frontend web application for predictions
+- Flask backend for predictions
+- Web-based frontend interface
 
- Technologies Used
+##  Technologies Used
 - Python
-- NumPy, Pandas
+- NumPy
+- Pandas
 - Scikit-learn
 - Flask
-- Matplotlib & Seaborn
 - HTML, CSS, JavaScript
 
-Dataset
-Bangalore House Price Dataset  
-Source: Kaggle
+##  Dataset
+Bangalore House Price Dataset (Kaggle)
 
-Machine Learning Models
+##  Machine Learning Models
 - Linear Regression
 - Lasso Regression
 - Ridge Regression
 
 GridSearchCV was used for hyperparameter tuning.
 
-Best Model
-Linear Regression performed best after feature engineering and cross-validation.
+##  How to Run the Project
 
- Web Application
-- Flask server exposes prediction API
-- Frontend allows users to input house details and get price predictions
-
-How to Run the Project
-
-1. Install dependencies
-bash
+### 1️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
